@@ -1,23 +1,24 @@
 -nologo
--out:c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\cvibuild.Snake\Debug\Snake.exe
+-out:e:\CVI\CVI_SNAKE\cvibuild.Snake\Debug\Snake.exe
 -arch:x86
 -timestamp
 -debug:2
--project:c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\Snake.prj
--res:c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\cvibuild.Snake\Debug\resources.res
+-project:e:\CVI\CVI_SNAKE\Snake.prj
+-res:e:\CVI\CVI_SNAKE\cvibuild.Snake\Debug\resources.res
 -entry:_CVIWinMainStartupCodeForDebugging@0
 -base:0x400000
--linked:c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\cvibuild.Snake\Debug\linkersummary.txt
--dlldeps:c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\cvibuild.Snake\Debug\dlldependencies.txt
--licensing:c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\cvibuild.Snake\Debug\linkerlicensing.txt
--browsedeps:c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\cvibuild.Snake\Debug\moduledependencies.txt
+-linked:e:\CVI\CVI_SNAKE\cvibuild.Snake\Debug\linkersummary.txt
+-dlldeps:e:\CVI\CVI_SNAKE\cvibuild.Snake\Debug\dlldependencies.txt
+-licensing:e:\CVI\CVI_SNAKE\cvibuild.Snake\Debug\linkerlicensing.txt
+-browsedeps:e:\CVI\CVI_SNAKE\cvibuild.Snake\Debug\moduledependencies.txt
 -stackreserve:1048576
 -stackcommit:4096
--in:c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\cvibuild.Snake\Debug\Snake.obj
+-in:e:\CVI\CVI_SNAKE\cvibuild.Snake\Debug\Snake.obj
 -more:c:\program files (x86)\national instruments\cvi2019\bin\msvc\cvistart.lib
 -more:c:\program files (x86)\national instruments\cvi2019\bin\msvc\cvi.lib
 -more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\advanlys.lib
 -more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\advapi32.lib
+-more:e:\CVI\CVI_SNAKE\bass.lib
 -more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\bufferoverflowu.lib
 -more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\cvi_db.lib
 -more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\cviauto.lib

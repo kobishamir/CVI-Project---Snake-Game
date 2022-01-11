@@ -1,1 +1,1 @@
--force-include-file "Snake.c";"c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\Snake.c" 
+-force-include-file "bass.h";"e:\CVI\CVI_SNAKE\bass.h" -force-include-file "Snake.c";"e:\CVI\CVI_SNAKE\Snake.c" -force-include-file "Snake.h";"e:\CVI\CVI_SNAKE\Snake.h" 

@@ -1,35 +1,70 @@
 [main]
 Class="Function"
 Prototype="int main(int argc, char *argv[]);"
-SourceLocation="c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\Snake.c:10:1"
+SourceLocation="e:\CVI\CVI_SNAKE\Snake.c:50:1"
 
 [QuitCallback]
 Class="Function"
 Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\Snake.c:25:1"
-
-[OkCallback]
-Class="Function"
-Prototype="int OkCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\Snake.c:38:1"
+SourceLocation="e:\CVI\CVI_SNAKE\Snake.c:79:1"
 
 [StartCallback]
 Class="Function"
 Prototype="int StartCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\Snake.c:50:1"
+SourceLocation="e:\CVI\CVI_SNAKE\Snake.c:93:1"
+
+[Snakefunc]
+Class="Function"
+Prototype="int Snakefunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="e:\CVI\CVI_SNAKE\Snake.c:128:1"
+
+[newHeadLocation]
+Class="Function"
+Prototype="struct location newHeadLocation(dir);"
+SourceLocation="e:\CVI\CVI_SNAKE\Snake.c:174:1"
+
+[generate_random_coardinate]
+Class="Function"
+Prototype="void generate_random_coardinate();"
+SourceLocation="e:\CVI\CVI_SNAKE\Snake.c:204:1"
 
 [timer]
 Class="Function"
 Prototype="int timer(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\Snake.c:81:1"
+SourceLocation="e:\CVI\CVI_SNAKE\Snake.c:214:1"
+
+[DrawApple]
+Class="Function"
+Prototype="void DrawApple(int rndy, int rndx);"
+SourceLocation="e:\CVI\CVI_SNAKE\Snake.c:229:1"
+
+[DrawSnake]
+Class="Function"
+Prototype="void DrawSnake();"
+SourceLocation="e:\CVI\CVI_SNAKE\Snake.c:239:1"
+
+[moveSnake]
+Class="Function"
+Prototype="void moveSnake();"
+SourceLocation="e:\CVI\CVI_SNAKE\Snake.c:251:1"
+
+[Thread1]
+Class="Function"
+Prototype="int Thread1(void *functionData);"
+SourceLocation="e:\CVI\CVI_SNAKE\Snake.c:260:1"
 
 [difficulty]
 Class="Function"
 Prototype="int difficulty(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\Snake.c:105:1"
+SourceLocation="e:\CVI\CVI_SNAKE\Snake.c:304:1"
 
 [score]
 Class="Function"
 Prototype="int score(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-SourceLocation="c:\Users\קובי שמיר\Desktop\CVI\Finel_Project\Snake.c:117:1"
+SourceLocation="e:\CVI\CVI_SNAKE\Snake.c:319:1"
+
+[loadscores]
+Class="Function"
+Prototype="int loadscores(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="e:\CVI\CVI_SNAKE\Snake.c:334:1"
 

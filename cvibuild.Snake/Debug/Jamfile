@@ -27,11 +27,18 @@ HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\activ
 	"c:\\Program Files (x86)\\National Instruments\\CVI2019\\bin"
 	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
 	;
-LOCATE on "Snake.c" = "c:\\Users\\קובי שמיר\\Desktop\\CVI\\Finel_Project" ;
-Object "c:\\Users\\קובי שמיר\\Desktop\\CVI\\Finel_Project\\cvibuild.Snake\\Debug\\Snake.obj" : "c:\\Users\\קובי שמיר\\Desktop\\CVI\\Finel_Project\\Snake.c" ;
-FILENUM on "c:\\Users\\קובי שמיר\\Desktop\\CVI\\Finel_Project\\cvibuild.Snake\\Debug\\Snake.obj" = 1 ;
-DEFPROTS on "c:\\Users\\קובי שמיר\\Desktop\\CVI\\Finel_Project\\cvibuild.Snake\\Debug\\Snake.obj" = "c:\\Users\\קובי שמיר\\Desktop\\CVI\\Finel_Project\\cvibuild.Snake\\Debug\\Snake.obj.cvidefprots" ;
-OUTFILE on "c:\\Users\\קובי שמיר\\Desktop\\CVI\\Finel_Project\\cvibuild.Snake\\Debug\\Snake.obj" = "c:\\Users\\קובי שמיר\\Desktop\\CVI\\Finel_Project\\cvibuild.Snake\\Debug\\Snake.obj.out" ;
-PrjObjects += "c:\\Users\\קובי שמיר\\Desktop\\CVI\\Finel_Project\\cvibuild.Snake\\Debug\\Snake.obj" ;
-Always $(PrjObjects) ;
-Depends all : $(PrjObjects) ;
+include Jamfile_instr ;
+LOCATE on "bass.h" = "e:\\CVI\\CVI_SNAKE" ;
+LOCATE on "Snake.c" = "e:\\CVI\\CVI_SNAKE" ;
+LOCATE on "Snake.h" = "e:\\CVI\\CVI_SNAKE" ;
+Object "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\Snake.obj" : "e:\\CVI\\CVI_SNAKE\\Snake.c" ;
+FILENUM on "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\Snake.obj" = 1 ;
+DEFPROTS on "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\Snake.obj" = "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\Snake.obj.cvidefprots" ;
+OUTFILE on "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\Snake.obj" = "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\Snake.obj.out" ;
+PrjObjects += "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\Snake.obj" ;
+Object "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\resources.res" : "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\resources.in.rc" ;
+Depends "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\resources.res" : "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\manifest.xml" ;
+MainFromObjects "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\Snake.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\Snake.exe" : "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\link_options.txt" ;
+Depends "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\Snake.exe" : "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\resources.res" ;
+Depends all : "e:\\CVI\\CVI_SNAKE\\cvibuild.Snake\\Debug\\Snake.exe" ;
